@@ -1,0 +1,62 @@
+* {
+    font-family: 'Roboto', monospace;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body {
+    background-color: #374151;
+}
+
+header a {
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', monospace;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+#search {
+    background-color: rgba(31, 41, 55, 0.6);
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+#blog {
+    font-size: 18px;
+}
+
+.date {
+    font-size: 14px;
+    line-height: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+
+}
+
+#name,
+#developer,
+.rights {
+    line-height: 28px;
+}
+
+#developer {
+    font-size: 14px;
+}
+
+.firstPartText {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.secondPartText {
+    line-height: 30px;
+}
