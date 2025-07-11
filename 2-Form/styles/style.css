@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to right, #F39494, #FDC5C5);
+    font-family: 'Open Sans', monospace;
+}
+
+main {
+    background-color: #FFFEFE;
+    width: 582px;
+    height: 573px;
+
+}
+
+h1 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+span {
+    color: #666666;
+    font-size: 18px;
+}
+
+label {
+    color: #999999;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+.company-name {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#company {
+    background-color: #FFFFFF;
+    box-sizing: 1px;
+    border-color: #F5F5F5;
+}
+
+input {
+    background-color: #F5F5F5;
+}
+
+a {
+    color: #089FE0;
+    font-size: 18px;
+    font-style: solid;
+}
+
+.terms {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.terms-link {
+    font-size: 14px;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+}
