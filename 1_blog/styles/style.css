@@ -3,10 +3,23 @@
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
+    margin: 0;
 }
 
 body {
     background-color: #374151;
+
+}
+
+header {
+    padding-top: 81px;
+    margin-bottom: 80px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
 header a {
@@ -14,32 +27,31 @@ header a {
     text-decoration: none;
 }
 
-.logo {
-    font-size: 18px;
-    font-family: 'Source Sans Pro', monospace;
-    font-weight: 600;
-    line-height: 100%;
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #121928;
+    padding-top: 70px;
+    padding-bottom: 77px;
 }
 
 #search {
     background-color: rgba(31, 41, 55, 0.6);
     color: #FFFFFF;
     line-height: 100%;
+    border: none;
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+    padding: 9px 10px 12px 49px;
 }
 
 #blog {
     font-size: 18px;
-}
-
-.date {
-    font-size: 14px;
-    line-height: 100%;
-}
-
-h1 {
-    font-size: 24px;
-    line-height: 38px;
-
 }
 
 #name,
@@ -52,11 +64,42 @@ h1 {
     font-size: 14px;
 }
 
+#image {
+    width: 896px;
+    height: 594px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 69px;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', monospace;
+    font-weight: 600;
+    line-height: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #4B5563;
+    padding: 6px 12px;
+}
+
+.date {
+    font-size: 14px;
+    line-height: 100%;
+    margin-bottom: 14px;
+}
+
+.about {
+    margin-bottom: 28px;
+}
+
 .firstPartText {
     font-size: 20px;
     line-height: 32px;
+    padding-bottom: 20px;
 }
 
 .secondPartText {
     line-height: 30px;
+    padding-bottom: 20px;
 }
