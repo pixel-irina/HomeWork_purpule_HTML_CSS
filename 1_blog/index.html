@@ -5,43 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
     <title>Blog</title>
 </head>
 
 <body>
     <header>
-        <span class="logo">B</span>
-        <nav>
-            <ul>
-                <li><a href="#" id="blog">Мой блог</a></li>
-                <li><a href="#" class="link">HTML и CSS</a></li>
-                <li><a href="#" class="link">Frontend</a></li>
-                <li><a href="#" class="link">Backend</a></li>
-            </ul>
-        </nav>
-        <div>
-            <input type="search" placeholder="Поиск" id="search">
+        <div class="header-wrapper">
+            <div>
+
+                <nav>
+                    <ul>
+
+                        <li class="logo-wrapper"><span class="logo">B</span>
+                            <a href="#" id="blog">Мой блог</a>
+                        </li>
+                        <li class="first-item"><a href="#" class="link">HTML и CSS</a></li>
+                        <li><a href="#" class="link">Frontend</a></li>
+                        <li><a href="#" class="link">Backend</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search">
+                <img class="search-img" src="images/search.svg" alt="лупа">
+                <input type="search" placeholder="Поиск" id="search">
+            </div>
         </div>
     </header>
 
     <main>
         <section>
-
-            <span class="date">FRONTEND </span>
-            <time class="date">12 мая 2024</time>
-
-            <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-
-            <div class="about">
-                <img src="./images/image1.png" alt="foto">
-                <p id="name"> Наталья Васильева </p>
-                <p id="developer">Разработчик</p>
+            <div class="information">
+                <span class="date">FRONTEND </span>
+                <div class="point"></div>
+                <time class="date">12 мая 2024</time>
             </div>
 
-        </section>
-        <article>
-            <img src="./images/image2.png" alt="Заставка" id="image">
+            <h1>Теория цвета - Как цвет влияет на поведение <br> потребителей</h1>
 
+            <div class="about">
+                <img src="./images/foto.png" alt="foto">
+                <div>
+                    <p id="name"> Наталья Васильева </p>
+                    <p id="developer">Разработчик</p>
+                </div>
+            </div>
+        </section>
+        <article class="main-content">
+            <div class="main-image-wrapper">
+                <img src="./images/image2.png" alt="Заставка" id="image">
+            </div>
             <p class="firstPartText">Теория цвета — это особенности эмоционального восприятия человеком тех или иных
                 цветовых решений. Цвета и
                 различные их
@@ -80,9 +97,6 @@
         <div class="rights">
             Все права защищены &#169; 2024
         </div>
-
-        <!--<span class="rights">Все права защищены &#169;</span>
-        <time class="rights">2024</time>*/-->
     </footer>
 </body>
 
