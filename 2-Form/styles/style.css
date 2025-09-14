@@ -1,13 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-image: linear-gradient(to right, #F39494, #FDC5C5);
+    margin: 0;
+    background: linear-gradient(to right top, #f8a5c2, #fad0c4);
     font-family: 'Open Sans', monospace;
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     background-color: #FFFEFE;
     width: 582px;
     height: 573px;
-
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 h1 {
@@ -15,35 +27,15 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
+    text-align: center;
+    margin: 72px 0 0 0;
 }
 
-span {
+p {
+    text-align: center;
     color: #666666;
     font-size: 18px;
-}
-
-label {
-    color: #999999;
-    font-size: 16px;
-    font-style: italic;
-}
-
-
-.company-name {
-    color: #333333;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-}
-
-#company {
-    background-color: #FFFFFF;
-    box-sizing: 1px;
-    border-color: #F5F5F5;
-}
-
-input {
-    background-color: #F5F5F5;
+    margin: 0 0 47px 0;
 }
 
 a {
@@ -52,13 +44,15 @@ a {
     font-style: solid;
 }
 
-.terms {
-    font-size: 14px;
-    font-style: normal;
+input {
+    background-color: #F5F5F5;
+    padding: 12px 13px;
+    border: none;
+    border-radius: 5px;
 }
 
-.terms-link {
-    font-size: 14px;
+input::placeholder {
+    font-size: 16px;
 }
 
 button {
@@ -67,4 +61,75 @@ button {
     font-size: 18px;
     font-weight: 400;
     line-height: 100%;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.container-form {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 394px;
+    gap: 22px;
+}
+
+.formField {
+    font-style: italic;
+    width: 100%;
+}
+
+.formField-name {
+    display: flex;
+    gap: 1px;
+}
+
+.terms-container {
+    font-size: 14px;
+    font-style: normal;
+    text-align: left;
+    line-height: 100%;
+    display: flex;
+    border: 1px;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.terms-container input {
+    margin: 0;
+}
+
+.terms {
+    color: #666666;
+    margin-right: 5px;
+}
+
+.terms-link {
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.button-text {
+    flex-grow: 2;
+}
+
+#company {
+    background-color: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
 }
