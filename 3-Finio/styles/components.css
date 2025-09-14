@@ -1,0 +1,190 @@
+/* Section */
+.section__wrapper {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+
+}
+
+/* Headling */
+.headling {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.headling__top {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: var(--color-title);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.headling__buttom {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: var(--color-text);
+    text-align: center;
+}
+
+@media (max-width: 680px) {
+
+    .headling {
+        margin: 48px 23px 32px 24px;
+
+    }
+
+    .headling__top {
+        text-align: left;
+        font-size: 36px;
+    }
+
+    .headling__buttom {
+        text-align: start;
+    }
+}
+
+/*Tariffs Card*/
+.tariffs-card {
+    display: grid;
+    height: 507px;
+    grid-template-rows: .7fr 1fr .2fr;
+    padding: 93px 40px 48px;
+    background: var(--color-secondary);
+    border-radius: var(--border-radius-8);
+    box-shadow: var(--box-shadow-16);
+
+}
+
+.card-25 {
+    padding: 48px 38px 48px 40px;
+}
+
+.card-blue {
+    background: var(--color-primary);
+    padding: 48px 38px 48px 40px;
+}
+
+.card-blue .tariffs-card__title {
+    color: var(--color-secondary);
+}
+
+.card-blue .tariffs-card__paragraph {
+    color: var(--color-text-60);
+    margin-bottom: 32px;
+}
+
+.tariffs-card__title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--color-title);
+    margin-bottom: 16px;
+
+}
+
+.tariffs-card__paragraph {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: var(--color-text);
+    margin-bottom: 50px;
+}
+
+/*Button */
+.button {
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 140%;
+    border: none;
+    border-radius: var(--border-radius-47);
+    color: var(--color-secondary);
+    cursor: pointer;
+    text-align: center;
+    padding: 12px 60px;
+    white-space: nowrap;
+
+}
+
+.button_blue {
+    background: var(--color-primary);
+    margin-top: 40px;
+}
+
+.button_blue:hover {
+    background-color: var(--color-text);
+}
+
+.button_white {
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    margin-top: 34px;
+}
+
+.button_white:hover {
+    background-color: var(--color-text);
+}
+
+/*Price*/
+.price {
+    display: grid;
+    height: 126px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 120%;
+    color: var(--color-text-grey);
+    gap: 16px;
+
+}
+
+.blue-price {
+    color: var(--color-secondary);
+}
+
+.price_item {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    border-bottom: 1px solid var(--color-main-line);
+    align-items: center;
+    padding-bottom: 16px;
+
+}
+
+.price_item:last-child {
+    border-bottom: none;
+}
+
+.price-value {
+    padding-left: 16px;
+}
+
+.item-blue {
+    border-bottom: 1px solid var(--color-secondary-line);
+}
+
+/*Chip*/
+.chip {
+    color: var(--color-secondary);
+    width: 124px;
+    border: none;
+    border-radius: var(--border-radius-8);
+    background: var(--color-discount);
+    text-align: center;
+    font-size: 15px;
+    line-height: 140%;
+    font-weight: 800;
+    padding: 4px 14px;
+    margin-bottom: 16px;
+
+}
+
+/*Tag*/
+.tag {
+    color: var(--color-secondary);
+    border: none;
+    border-radius: var(--border-radius-8);
+    background: var(--color-benefit);
+    text-align: center;
+    padding: 8px 0;
+}

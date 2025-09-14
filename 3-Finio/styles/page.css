@@ -1,0 +1,8 @@
+.tariffs_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(369px, 1fr));
+    gap: 24px;
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 24px;
+}
