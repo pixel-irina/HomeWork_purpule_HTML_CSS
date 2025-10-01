@@ -2,10 +2,14 @@
 
     --color-primary: #357EFE;
     --color-secondary: #FFFFFF;
+    --color-footer: #1A1D25;
     --color-title: #000000;
     --color-text: rgba(78, 93, 124, 0.5);
     --color-text-grey: #4E5D7C;
+    --color-text-50: rgba(255, 255, 255, 0.5);
     --color-text-60: rgba(255, 255, 255, 0.6);
+    --color-text-70: rgba(255, 255, 255, 0.7);
+    --color-text-80: rgba(255, 255, 255, 0.8);
     --color-discount: #1ABC9C;
     --color-benefit: #FFC736;
     --color-main-line: rgba(78, 93, 124, 0.08);
@@ -15,13 +19,19 @@
     --box-shadow-32: rgba(78, 93, 124, 0.32);
 
     --border-radius-8: 8px;
+    --border-radius-16: 16px;
+    --border-radius-34: 34px;
     --border-radius-47: 47px;
 
+    --main-layout-width:1392px; /*1920px;*/
     --layout-width: 1250px;
-
+    --layout-width-reviews:1156px;
+    --footer-layout-width: 1392px;
+    
 }
 
 * {
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -33,6 +43,7 @@ html {
 
 body {
     margin: 0;
+    background: var(--color-secondary);
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
